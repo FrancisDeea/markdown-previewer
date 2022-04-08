@@ -31,6 +31,7 @@
             background-color: rgb(41, 41, 41);
             padding: 10px;
             border-radius: 5px;
+            overflow: auto;
             code {
                 color: rgb(195, 195, 195);
             }
@@ -39,7 +40,7 @@
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 900px), (orientation: landscape) {
     .container {
         flex-direction: row;
         #editor-container {
